@@ -1,0 +1,32 @@
+{
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "html.format.wrapAttributes": "force-aligned",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrideDefaultValue",
+    "tslint.alwaysShowRuleFailuresAsWarnings": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.tslint": true
+    },
+    "terminal.integrated.rendererType": "dom",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/tmp": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/bower_components/**": true,
+        "**/dist/**": true
+    }
+}
